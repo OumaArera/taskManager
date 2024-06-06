@@ -65,7 +65,6 @@ taskManager/
 
     ```bash
     docker-compose up -d --build
-    ``
     ```
 2. **Attach Docker CLI**
  
