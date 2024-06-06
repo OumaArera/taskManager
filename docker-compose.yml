@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  task-management-app:
+    build: .
+    container_name: task-management-container
+    stdin_open: true
+    tty: true
+    restart: always
