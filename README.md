@@ -19,19 +19,21 @@ The Task Management App is a simple command-line application that allows users t
 ```
 taskManager/
 │
-├── libs/
-│ ├── junit-4.13.2.jar
-│ └── hamcrest-core-1.3.jar
-├── src/
-│ ├── TaskManagementApp.java
-│ ├── TaskManager.java
-│ └── Tasks.java
-├── tests/
-│ └── TaskManagerTest.java
-├── Dockerfile
+├── docker-compose.test.yml
 ├── docker-compose.yml
+├── Dockerfile
+├── hamcrest-core-1.3.jar
+├── junit-4.13.2.jar
 ├── LICENSE
-└── README.md
+├── pom.xml
+├── README.md
+├── TaskManagementApp.java
+├── TaskManager.java
+├── Tasks.java
+├── TaskManagementApp.class
+├── TaskManager.class
+└── Tasks.class
+
 ```
 
 ## Prerequisites
